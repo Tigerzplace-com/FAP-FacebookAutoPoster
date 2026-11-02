@@ -13,9 +13,22 @@ Instead of copy-paste spam or risky bots, FAP keeps you in control: you choose t
 
 ---
 
----
-
 ## ✨ Key Features
+
+- **New Look: Sidebar, Light & Dark Themes (v2.3)**  
+  A sidebar with six pages — **Dashboard**, **Campaigns**, **Groups**, **Activity**, **Insights** and **Settings** — plus a top bar that shows the run, your license and your Facebook account on every page. Choose **System**, **Light** or **Dark** in Settings.
+
+- **Campaigns in Four Steps (v2.3)**  
+  Build a campaign in order: **Write**, **Audience**, **Timing and safety**, **Review and launch**. A live preview of the post, as it will look in a group, stays on the right. The Review step checks your post, groups, delay, safety break, photos and license in one list, shows when every post will go out, and lets you send a **test post** to one group first.
+
+- **Run Control in the Top Bar (v2.3)**  
+  See how far the run is, when the next post goes out, and Pause, Resume or Stop from any page. Stop asks you to confirm and tells you how many groups are still waiting.
+
+- **Dashboard & Activity Log (v2.3)**  
+  Posts today, posts waiting for approval, 7-day success rate and lifetime total, with a run monitor and live log. The Activity page filters by Posted, Pending, Failed, Skipped or Breaks, opens any post with **View post**, and exports the whole log as CSV.
+
+- **Backup & Transfer (v2.3)**  
+  Export all campaigns, group lists and preferences — or just one campaign or list — to a file and import it on another computer or browser. You see what is new, what already exists and what is over your plan before anything is imported. Your Facebook login and license are never part of a backup. Free on every plan.
 
 - **Post to Multiple Groups at Once**  
   Load your joined groups and send a single post to many groups automatically. The first post starts immediately — no pre-delay.  
@@ -53,16 +66,16 @@ Instead of copy-paste spam or risky bots, FAP keeps you in control: you choose t
   → [How to schedule posts to Facebook groups automatically](https://tigerzplace.com/schedule-posts-to-facebook-groups/)
 
 - **Save & Load Campaigns**  
-  Save your full setup (groups, messages, link previews, delay settings) as named campaigns. Load them in one click — perfect for recurring promotions and weekly routines.
+  Save your full setup (groups, messages, link previews, delay settings) as named campaigns. The **Campaigns** page lists everything you have saved, with Run, Open, Duplicate, Export and Delete on each row — perfect for recurring promotions and weekly routines.
 
 - **Manual Link Preview (Multi-Link Support)**  
   If your post contains one or more links, choose which one to use for the Facebook-style preview card. Preview data is fetched on demand, reused during posting, and saved with campaigns.
 
 - **Multiple Posts Feature**  
-  Write multiple post variations. FAP cycles through them across groups — Post 1 → Group 1, Post 2 → Group 2, etc. — reducing detection risk from identical content.
+  Write multiple post variations, each as a card with its own preview. FAP cycles through them across groups — Post 1 → Group 1, Post 2 → Group 2, etc. — reducing detection risk from identical content. Your plan shows how many variations it allows.
 
-- **Saved Group Lists**  
-  Save sets of groups (e.g., "Marketing Groups", "Local Buy/Sell") as named lists. Dropdowns show the group count next to each list name.
+- **Saved Group Lists & Groups Page**  
+  Save sets of groups (e.g., "Marketing Groups", "Local Buy/Sell") as named lists. The **Groups** page has an All groups tab and a Saved lists tab; click a group to see its details, open it on Facebook, refresh it, or add it to a saved list.
 
 - **Single Instance Protection**  
   Prevents multiple extension windows from conflicting. If FAP is opened again, the previous instance is automatically closed.
@@ -80,13 +93,13 @@ Instead of copy-paste spam or risky bots, FAP keeps you in control: you choose t
 
 ## 🧩 How It Works (High-Level)
 
-1. **Load Groups** — FAP reads your joined Facebook groups and displays them in a searchable table with pictures and last-visited times.
-2. **Select Groups** — Choose specific groups or load a saved group list / campaign.
-3. **Compose Your Post** — Write your message. Optionally attach an image or set a link preview.
-4. **Configure Delay** — Use the slider or presets to set your delay range. FAP recommends the safest tier for your group count.
-5. **Start Campaign** — Click **Start**. FAP posts to each group one by one. The first post begins immediately.
-6. **Monitor Live** — Watch the counter strip, event log, and progress bar in real time.
-7. **Review Summary** — When posting completes, a summary modal shows your results and all post links.
+1. **Load Groups** — FAP reads your joined Facebook groups and displays them on the **Groups** page with pictures, member counts and last-visited times.
+2. **Write** — Start a campaign and write your post. Optionally add variations, an image or a link preview.
+3. **Audience** — Choose specific groups or load a saved group list.
+4. **Timing and safety** — Set your delay range with the slider or presets (FAP recommends the safest tier for your group count), plus an optional Safety Break and schedule.
+5. **Review and launch** — Check the list of results, optionally send a test post to one group, then click **Launch**. FAP posts to each group one by one. The first post begins immediately.
+6. **Monitor Live** — Follow the run in the top bar, the Dashboard run monitor and the live log.
+7. **Review Summary** — When posting completes, a summary modal shows your results and all post links. The full history stays in **Activity**.
 
 ---
 
@@ -105,20 +118,21 @@ Instead of copy-paste spam or risky bots, FAP keeps you in control: you choose t
    - Click the FAP extension icon. The current tab becomes the FAP dashboard.
 
 4. **Load Groups**
-   - Click **Load Groups** to fetch all your joined groups.
+   - Open **Groups** and load your joined groups.
 
 5. **Set Up Your Campaign**
-   - Select groups (or load a saved list / campaign).
-   - Write your post. Optionally attach an image.
-   - Set your delay using the slider — or accept the smart recommendation.
+   - Open **Campaigns** and start a new one (or open a saved campaign).
+   - **Write** your post, optionally attach an image.
+   - Pick groups (or a saved list) in **Audience**.
+   - Set your delay in **Timing and safety** — or accept the smart recommendation.
 
-6. **Start Posting**
-   - Press **Start**. Watch the live counter strip, event log, and progress bar.
+6. **Review and Launch**
+   - Check the **Review and launch** step, optionally send a test post, then press **Launch**. Follow the run in the top bar and on the Dashboard.
 
 7. **Review Results**
-   - The post-run summary modal shows your success rate and all post links.
+   - The post-run summary modal shows your success rate and all post links. Open **Activity** for the full log and CSV export.
 
-**Updating FAP:** replace all files in your FAP folder with the new version (don't mix old and new files), then click **Reload** on `chrome://extensions`. Your campaigns, group lists, and settings are preserved.
+**Updating FAP:** replace all files in your FAP folder with the new version (don't mix old and new files), then click **Reload** on `chrome://extensions`. Your campaigns, group lists, and settings are preserved. Use **Settings → Backup and transfer** to keep a copy or move to another computer.
 
 ---
 
@@ -138,7 +152,33 @@ Instead of copy-paste spam or risky bots, FAP keeps you in control: you choose t
 
 ---
 
-## 🆕 What's New in v2.1 & v2.2
+## 🆕 What's New in v2.3 — A New Look
+
+**New layout** — Sidebar with Dashboard, Campaigns, Groups, Activity, Insights and Settings; a top bar with the run, your license and your Facebook account.
+
+**Light and dark themes** — System, Light or Dark in Settings.
+
+**Campaigns in four steps** — Write, Audience, Timing and safety, Review and launch, with a live post preview and a test post to one group.
+
+**Variation cards** — Each post variation is a card with its own preview.
+
+**Run control that follows you** — Progress, next-post time, Pause, Resume and Stop (with confirm) on every page.
+
+**New Dashboard and Activity log** — Today's posts, pending, 7-day success rate, lifetime total, filters and CSV export.
+
+**Groups page** — Pictures, member counts, last visited, a details panel and a Saved lists tab.
+
+**Backup and transfer** — Export and import campaigns, group lists and preferences with a preview. Free on every plan.
+
+**Clearer license messages** — Plain-word notices when your license is ending, ended or needs an update. If it has ended you can still view campaigns and export a backup. **Settings → Check license** reads your license fresh after a purchase or upgrade.
+
+**Smaller fixes** — Larger small text, clearer keyboard focus outlines, tables that scroll inside their card, and FAP now loads on case-sensitive file systems.
+
+All saved campaigns, group lists and settings carry over — no migration needed.
+
+---
+
+## What's New in v2.1 & v2.2
 
 **Group Profile Pictures** — Groups load with their avatars so you can recognise them at a glance.
 

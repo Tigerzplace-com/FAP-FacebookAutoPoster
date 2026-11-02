@@ -1,10 +1,10 @@
-# Facebook Auto Poster v2.2 — User Tutorial
+# Facebook Auto Poster v2.3 — User Tutorial
 
 A step-by-step guide to installing, configuring, and using the Facebook Auto Poster (FAP) Chrome extension.
 
 🌐 **Official page:** [tools.tigerzplace.com/facebook-auto-poster](https://tools.tigerzplace.com/facebook-auto-poster/) · 📚 **Docs:** [tools.tigerzplace.com/docs](https://tools.tigerzplace.com/docs/) · 💳 **Plans:** [tools.tigerzplace.com/pricing](https://tools.tigerzplace.com/pricing/)
 
-> 📺 **Prefer to watch?** The video tutorial covers the core workflow in this guide (recorded on v2.0 — everything shown still works; v2.1 and v2.2 add the features described below):  
+> 📺 **Prefer to watch?** The video tutorial covers the core workflow of FAP (recorded on v2.0, before the v2.3 redesign). The steps are the same, but buttons now live in the places described below:  
 > 👉 [Watch on YouTube — FAP Full Tutorial](https://www.youtube.com/watch?v=hlqqBId04GI)
 
 ---
@@ -12,28 +12,29 @@ A step-by-step guide to installing, configuring, and using the Facebook Auto Pos
 ## Table of Contents
 
 1. [Installation](#1-installation)
-2. [First Launch](#2-first-launch)
+2. [First Launch and Finding Your Way Around](#2-first-launch-and-finding-your-way-around)
 3. [Loading Your Groups](#3-loading-your-groups)
-4. [Selecting Groups](#4-selecting-groups)
-5. [Composing Your Post](#5-composing-your-post)
-6. [Adding Images](#6-adding-images)
+4. [Choosing Groups for a Campaign](#4-choosing-groups-for-a-campaign)
+5. [Writing Your Post](#5-writing-your-post)
+6. [Adding Photos](#6-adding-photos)
 7. [Link Previews](#7-link-previews)
-8. [Wait Time Settings](#8-wait-time-settings)
-9. [Starting a Posting Campaign](#9-starting-a-posting-campaign)
-10. [Pause & Resume](#10-pause--resume)
-11. [Post-Run Summary](#11-post-run-summary)
-12. [Saving & Loading Campaigns](#12-saving--loading-campaigns)
+8. [Delay Between Posts](#8-delay-between-posts)
+9. [Starting a Campaign](#9-starting-a-campaign)
+10. [Pause, Resume and Stop](#10-pause-resume-and-stop)
+11. [When a Run Finishes](#11-when-a-run-finishes)
+12. [Saving and Opening Campaigns](#12-saving-and-opening-campaigns)
 13. [Scheduling Posts](#13-scheduling-posts)
-14. [Multiple Posts Feature](#14-multiple-posts-feature)
-15. [Dashboard & Logs](#15-dashboard--logs)
+14. [Post Variations](#14-post-variations)
+15. [Dashboard and Activity](#15-dashboard-and-activity)
 16. [Saved Group Lists](#16-saved-group-lists)
 17. [Posting as a Page](#17-posting-as-a-page)
 18. [Safety Break](#18-safety-break)
 19. [Smart Failure Handling](#19-smart-failure-handling)
-20. [Plans & Locked Features](#20-plans--locked-features)
-21. [Updating FAP](#21-updating-fap)
-22. [Safety Tips & Best Practices](#22-safety-tips--best-practices)
-23. [Troubleshooting](#23-troubleshooting)
+20. [Plans and Locked Features](#20-plans-and-locked-features)
+21. [Backup and Transfer](#21-backup-and-transfer)
+22. [Updating FAP](#22-updating-fap)
+23. [Safety Tips and Best Practices](#23-safety-tips-and-best-practices)
+24. [Troubleshooting](#24-troubleshooting)
 
 ---
 
@@ -74,13 +75,13 @@ Click **"Load unpacked"** and select the FAP extension folder (the one containin
 You should see "Facebook Auto Poster" appear in your extensions list with the FAP icon. Pin it to your toolbar for easy access.
 
 ```
-📸 Screenshot: FAP extension card in chrome://extensions showing version 2.2
+📸 Screenshot: FAP extension card in chrome://extensions showing version 2.3.0
 📸 Screenshot: FAP icon pinned in Chrome toolbar
 ```
 
 ---
 
-## 2. First Launch
+## 2. First Launch and Finding Your Way Around
 
 ### Step 1: Log into Facebook
 
@@ -90,201 +91,203 @@ Make sure you're logged into your Facebook account in the same Chrome profile wh
 
 Click the FAP icon in your Chrome toolbar. The extension will:
 1. Close the popup
-2. Replace your current tab with the FAP dashboard
+2. Replace your current tab with FAP
 
 ```
 📸 Screenshot: FAP icon in toolbar
-📸 Screenshot: FAP dashboard after loading
+📸 Screenshot: FAP Dashboard after loading
 ```
 
 ### Step 3: License Activation
 
-FAP opens on the free plan with core features unlocked. To unlock more groups, image posts and other plan features, pick a plan on the [pricing page](https://tools.tigerzplace.com/pricing/), then follow the steps to [activate your license](https://tools.tigerzplace.com/activate/?tool=fap&tier=pro). See [Plans & Locked Features](#20-plans--locked-features) for what each plan includes.
+FAP opens on the free plan with core features unlocked. To unlock more groups, photo posts and other plan features, pick a plan on the [pricing page](https://tools.tigerzplace.com/pricing/), then follow the steps to [activate your license](https://tools.tigerzplace.com/activate/?tool=fap&tier=pro). See [Plans and Locked Features](#20-plans-and-locked-features) for what each plan includes.
+
+If your license has not been activated on this computer yet, FAP shows a full-page **Activate FAP** screen with three choices: start free, enter a key you already have, or buy a plan. After you activate, press **I've activated, check again**.
 
 > Need a walkthrough of buying and activating? See the [licensing guide](https://tigerzplace.com/how-to-buy-tool-license/) on the blog.
+
+### Step 4: Learn the Layout
+
+FAP has six pages in the dark sidebar on the left:
+
+| Page | What it is for |
+|---|---|
+| **Dashboard** | Your numbers for today, the live run monitor, the live log and a short Get started list |
+| **Campaigns** | Your saved campaigns. Create, open, duplicate, import and export them here |
+| **Groups** | Every group you have joined, your saved group lists, and details for one group at a time |
+| **Activity** | The posting log with filters and CSV export |
+| **Insights** | Reserved for a later release |
+| **Settings** | License and plan, Backup and transfer, Preferences, Notifications, Updates and help |
+
+At the bottom of the sidebar the **plan card** shows your plan, whether it is active, when it renews, and two meters: groups in the current campaign and post variations. Use **Manage plan** or **Upgrade** there to change plans.
+
+The **top bar** is on every page. It holds the **run capsule** (the run's status and its Start posting, Pause and Stop buttons), the **License** button, the bell for notifications and a chip that shows which Facebook account FAP is posting as.
+
+Banners appear under the top bar when something needs attention, for example a license that is about to end, an expired license or a new version. Only the most important one shows at a time.
+
+You can switch between a light and a dark theme in **Settings → Preferences**. **System** follows your computer.
+
+```
+📸 Screenshot: Sidebar with the six pages and the plan card; top bar with the run capsule
+```
 
 ---
 
 ## 3. Loading Your Groups
 
-### Step 1: Click "Load Groups"
+### Step 1: Open Groups and Press "Reload from Facebook"
 
-On the FAP dashboard, click the **"Load Groups"** button. FAP fetches all Facebook groups you've joined.
+Open the **Groups** page and press **Reload from Facebook**. FAP fetches all Facebook groups you have joined. Groups are saved in this browser, separately for each Facebook account, so next time they are already there.
 
 ```
-📸 Screenshot: Load Groups button location on dashboard
+📸 Screenshot: Groups page with the Reload from Facebook button
 ```
 
 ### Step 2: Wait for Groups to Load
 
-FAP reads your groups from Facebook. This may take a few seconds depending on how many groups you're in.
-
-```
-📸 Screenshot: Loading indicator while groups are being fetched
-```
+This may take a few seconds depending on how many groups you are in. The Groups table shows "Loading your groups…" until the list arrives.
 
 ### Step 3: Browse Your Groups
 
-Once loaded, a searchable table shows all your groups. Each row shows:
-- A checkbox (groups load **unchecked** — you choose what to post to)
-- The group's **profile picture**
-- The group **name**
-- A **Visited** column showing when you last visited the group (for example *Today*, *1w ago*, *2mo ago*)
+The **All groups** tab is a searchable table. Each row shows:
+- The group's **profile picture** and **name**, with its privacy (Public or Private)
+- **Members**
+- **Last visited** (for example *Today*, *1w ago*, *2mo ago*). Click the header to sort groups by most recently visited
+- **Status**, which tells you if you have had a post waiting for approval in that group
 
-Click the **Visited** header to sort groups by most recently visited — handy for focusing on the groups you're active in.
+Use the filter chips above the table (for example **Visited this week**) and the search box to narrow the list.
+
+### Step 4: See Details for One Group
+
+Click a row and the **Group details** panel on the right shows the picture, a link that opens the group on Facebook, members, privacy, last visited and how many posts you have made there today. **Refresh** reads that one group again from Facebook. **Add to list** puts the group in a saved list.
 
 ```
-📸 Screenshot: Group list table with profile pictures, names, Visited column, checkboxes, and search bar
+📸 Screenshot: Groups table with filter chips and the Group details panel
 ```
 
 ---
 
-## 4. Selecting Groups
+## 4. Choosing Groups for a Campaign
 
-### Search & Filter
+You choose groups inside a campaign, in the **Audience** step (step 2 of the campaign editor). Groups load **unselected**: you decide where to post.
 
-Use the **search bar** above the group list to filter groups by name.
+1. Open **Campaigns → New campaign** (or open a saved campaign) and go to **Audience**.
+2. Pick a source: **All joined groups** or one of your saved lists.
+3. Tick the groups you want. Use **Select shown** to tick everything that matches your search or filter, and **Clear** to untick all.
+4. Watch the meter, for example *12 of 500 groups selected*. It turns red if you pick more than your plan allows.
+5. Press **Save as list** to keep this selection for later.
 
-```
-📸 Screenshot: Search bar with a keyword typed, filtered results
-```
+The **Reload** button next to the source refreshes groups from Facebook. Under the table, **Show more** loads the next batch of rows.
 
-### Select Individual Groups
-
-Click the checkbox next to each group you want to post to.
-
-### Select All Groups
-
-Use the **"Select All"** checkbox at the top to select or deselect all visible groups at once. The **Save Selection** and **Save Campaign** buttons appear as soon as at least one group is checked.
+At the bottom of the step, the switch **Skip a group for the rest of the run when a post goes to pending** is on by default. It saves posts for groups that need admin approval.
 
 ```
-📸 Screenshot: Select All checkbox with groups checked
+📸 Screenshot: Audience step with the selection meter, filter chips and the group table
 ```
-
-### Load a Saved Group List
-
-If you've previously saved a group list, select it from the dropdown to auto-check those groups. The dropdown shows the group count next to each list name, and the Visited times are saved along with the list. See [Saved Group Lists](#16-saved-group-lists) for details.
 
 ---
 
-## 5. Composing Your Post
+## 5. Writing Your Post
+
+Open **Campaigns → New campaign**. A campaign has four steps, shown at the top: **Write**, **Audience**, **Timing and safety** and **Review and launch**. Each step shows a short summary under its name, and the **Back** and **Next** buttons at the bottom move between steps. You can click any step name to jump to it.
 
 ### Write Your Message
 
-Type your post content in the text area. You can include regular text, emojis, links, and hashtags.
+In **Write**, click a variation card, then type your post in the text box. You can include regular text, emojis, links and hashtags. The counter under the box shows characters and hashtags.
 
-```
-📸 Screenshot: Post text area with sample message
-```
+### Name Your Campaign
+
+Type a name at the top of the page, next to the **Draft** label. A name is needed to save the campaign.
+
+### Preview
+
+The **Preview** panel on the right shows how the post will look in a group, including the photo or link preview. The **This run** panel under it summarises groups, variations, delay, safety breaks, total time and the time the run finishes.
 
 ### Character Support
 
 FAP supports full Unicode — emojis, special characters, and non-English text all work correctly.
 
+```
+📸 Screenshot: Write step with the variation cards, the text box and the Preview panel
+```
+
 ---
 
-## 6. Adding Images
+## 6. Adding Photos
 
-> **Plan note:** Image posts are available on the **Basic** plan and above. On the free plan the image area shows which plan unlocks it — see [Plans & Locked Features](#20-plans--locked-features).
+> **Plan note:** Photo posts are available on the **Basic** plan and above. On the free plan the Photos card shows which plan unlocks it — see [Plans and Locked Features](#20-plans-and-locked-features).
 
-### Step 1: Click the Image Upload Area
+### Step 1: Choose "Photos"
 
-In the image upload section, click to browse or drag-and-drop an image file.
+In the **Photos** card of the Write step, switch from **Text only** to **Photos**.
 
-```
-📸 Screenshot: Image upload area / dropzone
-```
+### Step 2: Pick a Photo
 
-### Step 2: Preview Your Image
-
-After selecting an image, you'll see a preview thumbnail in the media tray.
+Click the drop zone to browse, or drag a photo onto it. JPG, PNG, GIF and WEBP work, up to 10 MB. One photo per campaign for now; every variation shares it.
 
 ```
-📸 Screenshot: Image preview card in media tray
+📸 Screenshot: Photos card with the drop zone
 ```
 
-### Step 3: Remove Image (Optional)
+### Step 3: Preview or Remove
 
-Click the remove/clear button on the image card to remove it before posting.
+The photo appears in the media tray and in the Preview panel. Use the remove button on the photo, or switch back to **Text only**, to post without it.
 
-> **Note:** Image posts and link preview posts are mutually exclusive. Selecting an image disables link previews and vice versa.
+> **Note:** A photo replaces the link preview for every variation in the run.
 
 ---
 
 ## 7. Link Previews
 
-When your post contains one or more URLs, FAP can fetch and display a Facebook-style link preview card.
+When your post contains a URL, FAP shows a **link row** under the text box.
 
 ### Step 1: Write a Post with a URL
 
-Include a link in your post text.
-
-```
-📸 Screenshot: Post text area with a URL typed in
-```
+Include a link in your post text. The link row appears.
 
 ### Step 2: Select Which Link to Preview
 
-If your post contains multiple URLs, use the dropdown to choose which one to preview.
+If the post has several URLs, choose one from the list in the row.
+
+### Step 3: Turn On the Preview and Fetch It
+
+Switch on **Show link preview**, then press **Get Preview**. FAP loads the title, description and picture from Facebook, and the Preview panel shows the card.
+
+### Step 4: Clear (Optional)
+
+Press **Clear** to post without a preview.
+
+> **Note:** Link previews are saved with the campaign. Opening the campaign later restores the preview without fetching it again.
 
 ```
-📸 Screenshot: Link selection dropdown showing multiple detected URLs
+📸 Screenshot: Link row with the switch, the Get Preview button and the preview card
 ```
-
-### Step 3: Fetch the Preview
-
-Click **"Fetch Preview"** to load the link preview from Facebook.
-
-```
-📸 Screenshot: Fetch Preview button, then the rendered preview card (title, description, image)
-```
-
-### Step 4: Clear Preview (Optional)
-
-Click **"Clear Preview"** to remove the preview and post without one.
-
-> **Note:** Link previews are saved with campaigns. Loading a campaign restores the preview without refetching.
 
 ---
 
-## 8. Wait Time Settings
+## 8. Delay Between Posts
 
-Wait times control the delay between each group post. This is the most important safety setting.
+The delay is the wait between one group post and the next. It is the most important safety setting. Set it in **Timing and safety** (step 3).
 
-### Delay Range Slider
+### Random Range or Fixed
 
-FAP uses a **dual-handle range slider** for setting your min and max delay visually. Use the preset buttons to jump to common ranges, or switch to **Custom mode** to enter exact minute values.
+At the top of the **Delay between posts** card choose **Random range** (FAP waits a random time inside a range before each post) or **Fixed** (always the same wait). A random range looks more natural to Facebook.
 
-```
-📸 Screenshot: Dual-handle delay slider with preset buttons (1-3min, 3-20min, etc.)
-```
+### Range Slider and Presets
 
-### Smart Delay Recommendation
-
-When you select groups, FAP automatically recommends the safest delay tier for your group count. The recommendation appears in the delay section — apply it with one click.
+Drag the two handles, or use the quick buttons: 1–20 s, 20–60 s, 1–3 min, 3–20 min, 20–30 min and 30–60 min. Choose **Custom** to type exact minutes (from 1 to 180, with at most 120 minutes between the two numbers).
 
 ```
-📸 Screenshot: Smart delay recommendation showing recommended tier and group count
+📸 Screenshot: Delay card with the range slider and preset buttons
 ```
 
-### Smart Delay Warning Modal
+### Suggested Delay
 
-If you start posting with a delay that's too short for your group count, a blocking warning modal appears. It shows:
-- Your current (risky) delay
-- The recommended safe delay
-- Two buttons: **Apply Safe Delay** and **Post Anyway**
+When you have groups selected, FAP suggests a delay for your group count. The suggestion appears in a note under the slider with a **Use** button when your range is shorter than half of the suggestion.
 
-```
-📸 Screenshot: Smart delay warning modal with risk alert, current vs recommended delay, and action buttons
-```
+### Delay Warning
 
-### Estimated Run Time Banner
-
-Before posting starts, a banner displays the estimated total campaign duration. It also shows your **active effort saved** (compared to doing it manually), and a **risk warning pill** if your combo is flagged.
-
-```
-📸 Screenshot: Estimate banner showing run time, effort saved, and optional risk pill
-```
+If you press Start with a delay that is too short for your group count, a warning window shows your delay next to the recommended one, with **Apply Safe Delay** and **Post Anyway**.
 
 ### Recommended Delay Tiers
 
@@ -297,208 +300,175 @@ Before posting starts, a banner displays the estimated total campaign duration. 
 | 500–1,000 | 30–60 Minutes |
 | 1,000+ | Custom 45–60 Minutes |
 
-Since v2.1.1 FAP flags short delays earlier — for example very short ranges with 150+ groups, or 1–3 minute ranges with 300+ groups, will trigger the warning. Treat the table as a safe starting point; longer is always safer.
+Treat the table as a safe starting point; longer is always safer.
 
 ---
 
-## 9. Starting a Posting Campaign
+## 9. Starting a Campaign
 
-### Step 1: Verify Your Setup
+### Step 1: Open "Review and launch"
 
-Before starting, confirm:
-- ✅ Groups are selected
-- ✅ Post message is written
-- ✅ Delay is configured
-- ✅ (Optional) Image or link preview is set
+The last step lists what is ready (post text, groups, delay, safety break, photos, license) and what needs attention. Each line that needs attention has a button that takes you to the right step. The top of the card shows **Ready** or **Needs attention**.
 
-### Step 2: Click "Start"
+The **Plan check** card shows whether your plan allows this run, the same answer you get when you press Start.
 
-Click the **"Start"** button to begin posting.
+The **Posting timeline** shows when each post will go out; safety breaks are the hatched sections.
 
-> **Note:** The first post begins immediately with no pre-delay. Configured delays only apply between subsequent posts.
+### Step 2: Send a Test Post (Optional)
 
-```
-📸 Screenshot: Start button location
-```
+Pick one group and press **Send test post**. FAP posts variation 1 to that group so you can check the text, photo and link preview. It is a normal post.
 
-### Step 3: Monitor with the Live Counter Strip
+### Step 3: Press "Start posting"
 
-Once posting begins, the live counter strip appears on the dashboard showing:
-- Current post number out of total
-- ✓ Success count, ✗ Fail count and ⏳ **Pending** count (groups where your post is waiting for admin approval)
-- Name of the group just posted to
-- Countdown to the next post (or the Safety Break countdown, if a break is running)
+Press **Start posting** in the Review card, or in the top bar. The first post goes out immediately; delays only apply between posts.
 
 ```
-📸 Screenshot: Live counter strip during active posting
+📸 Screenshot: Review and launch with the readiness list, plan check and timeline
 ```
 
-### Step 4: Monitor the Progress Bar
+### Step 4: Watch the Run
 
-The progress bar fills with a percentage label that tracks the fill across all stages.
-
-```
-📸 Screenshot: Progress bar at 60% with label visible
-```
-
-### Step 5: View Post URLs in the Log
-
-After each successful post, the event log shows a **clickable direct link** to the Facebook post.
+While posting, the **run capsule** in the top bar shows *Posting*, how many groups are done and the time until the next post. The **Dashboard** shows the same run in more detail: a coloured progress bar, counters for Posted, Pending, Failed and Skipped, the group and variation going out next, and a live log of the last few events.
 
 ```
-📸 Screenshot: Event log entry with clickable post URL
+📸 Screenshot: Run capsule in the top bar and the run monitor on the Dashboard
 ```
 
 ---
 
-## 10. Pause & Resume
+## 10. Pause, Resume and Stop
 
 ### Pause
 
-During an active campaign, click the **"Pause"** button. The current post completes, then the loop halts.
-
-```
-📸 Screenshot: Pause button during active posting
-```
+During a run press **Pause** in the top bar. The post in progress finishes, then the run holds.
 
 ### Resume
 
-Click **"Resume"** (same button) to continue posting from exactly where you stopped.
+Press **Resume** (the same button) to continue from where you stopped.
 
-```
-📸 Screenshot: Resume button in paused state
-```
+### Stop
+
+Press **Stop**. FAP asks you to confirm and tells you how many groups have not been posted to yet. Choose **Keep posting** or **Stop run**. After a stop the capsule shows *Stopped* with what was posted.
 
 > **Tip:** Pausing is useful if you want to wait for better engagement hours or need to step away temporarily.
 
 ---
 
-## 11. Post-Run Summary
+## 11. When a Run Finishes
 
-When a campaign finishes, a **post-run summary modal** automatically appears. It shows:
-- Total posts sent
-- Success count, fail count and **pending-approval count**
-- An animated **success rate bar** (animates on load)
-- A scrollable list of up to 15 direct post links with group names and timestamps
+When a run ends, the capsule shows *Finished* with the posted, pending and failed counts, and the Dashboard's run monitor changes to **Run finished**. It shows when the run started, how long it took, and the totals:
+
+- **Posted**
+- **Pending approval** (the group's admins need to approve your post)
+- **Failed**
+- **Skipped**
+
+Pending posts are counted as pending, not as failed: the post is not lost. Open **Activity** to see every group with a **View post** link.
 
 ```
-📸 Screenshot: Post-run summary modal with success rate bar and post links list
+📸 Screenshot: Run finished state on the Dashboard
 ```
-
-Groups where your post is awaiting admin approval are counted as **pending** rather than failed — the post isn't lost, the group's admins just need to approve it. Click any post link in the summary to open it directly on Facebook. Close the modal to return to the dashboard.
 
 ---
 
-## 12. Saving & Loading Campaigns
+## 12. Saving and Opening Campaigns
 
-Campaigns save your complete setup so you can reuse it later.
+Campaigns save your complete setup so you can reuse it later. They are stored in this browser, separately for each Facebook account.
 
 ### Save a Campaign
 
-1. Set up everything (groups, message, previews, delay settings)
-2. Enter a campaign name
-3. Click **"Save Campaign"** — a confirmation preview shows your full setup before saving
+1. Set up the campaign: name, variations, groups, timing and safety
+2. Press **Save** at the top of the editor. The status next to the name changes from **Draft** to **Saved**
+
+### The Campaigns Library
+
+The **Campaigns** page lists your saved campaigns with their variations, media, groups, last update and the actions **Run**, **Open**, **Export**, **Duplicate** and **Delete**. Deleting asks you to confirm first.
+
+- **New campaign** starts a blank one
+- **Import** opens a backup file (see [Backup and Transfer](#21-backup-and-transfer))
+- If you leave the editor with unsaved work, an **Open in the editor** card on the Campaigns page takes you back so nothing is lost
+
+### Open a Campaign
+
+Press **Open** on a row. FAP restores the name, the variations, the groups, the link previews and every timing and safety setting. Go to **Review and launch** and press **Start posting**.
+
+If a campaign was saved on a bigger plan than you have now, it still opens, but the extra variations and groups are not used, and a notice tells you.
+
+### Duplicate
+
+**Duplicate** makes a copy that you can change without touching the original.
+
+### Without Saving
+
+On the free plan saving is locked. You can still create a campaign and run it; it stays until you close FAP.
 
 ```
-📸 Screenshot: Campaign name input, Save button, and confirmation preview
+📸 Screenshot: Campaigns library with the row actions
 ```
-
-### Load a Campaign
-
-1. Select a saved campaign from the dropdown
-2. FAP restores: selected groups, post text, link previews, and all delay settings
-3. Click **"Start"** to run it
-
-```
-📸 Screenshot: Campaign dropdown with saved campaigns listed
-```
-
-### Delete a Campaign
-
-Click the delete icon next to a campaign name to remove it.
 
 ---
 
 ## 13. Scheduling Posts
 
-Schedule posts to be published at a specific future date and time.
+Schedule posts to be published at a specific future date and time. Scheduling is in **Timing and safety**, in the **When posts appear** card.
 
-### Step 1: Set the Date
+### Step 1: Choose "Schedule"
 
-Select a date using the date picker.
+Switch from **Right away** to **Schedule**.
 
-### Step 2: Set the Time
+### Step 2: Set the Date and Time
 
-Choose a time from the time dropdown. Available times update based on the selected date.
+Pick a date and a time. FAP uses your computer's time zone. The time must be at least 35 minutes from now.
 
-```
-📸 Screenshot: Schedule date picker and time dropdown
-```
+### Step 3: Start the Campaign
 
-### Step 3: Post as Scheduled
+FAP sends the posts to Facebook now, and Facebook publishes each of them at the time you picked.
 
-When you start the campaign, posts are submitted to Facebook as scheduled posts rather than immediate posts. Facebook publishes them at your chosen time.
+> **Note:** Scheduling is not available when you post as a Page.
 
-> **Note:** Scheduled posts rely on Facebook's scheduling system. The post is submitted now but published later. Minimum scheduling time is enforced to avoid Facebook errors.
-
-### Reset Schedule
-
-Click **"Reset Schedule"** to cancel scheduling and revert to posting immediately.
+Switch back to **Right away** to post immediately again.
 
 ---
 
-## 14. Multiple Posts Feature
+## 14. Post Variations
 
-Post different messages to different groups in a round-robin pattern.
+A campaign can hold several different posts. FAP gives each group one variation, picked at random. Different wording lowers the chance of spam flags.
 
 ### How It Works
 
-1. Enable the **Multiple Posts** option
-2. Write multiple post messages (each in its own slider tab)
-3. FAP cycles through them — Post 1 → Group 1, Post 2 → Group 2, Post 1 → Group 3, etc.
+1. In **Write**, press **Add variation** (V2, V3 …)
+2. Write each one. Click a card to edit it; **Remove** deletes the one you are editing
+3. A meter shows how many your plan allows, for example *3 of 10 variations used*
 
 ```
-📸 Screenshot: Multiple post slider tabs (Post 1, Post 2, Post 3) with different content
+📸 Screenshot: Variation cards V1 to V3 with the meter
 ```
 
 ### Why Use This
 
 - Avoids posting identical content to every group (reduces spam detection risk)
 - Lets you tailor messages for different audiences
-- Each post can have its own link preview
+- Each variation can have its own link preview
 
 ---
 
-## 15. Dashboard & Logs
+## 15. Dashboard and Activity
 
-### Live Counter Strip
+### Dashboard
 
-During posting, the counter strip shows real-time status: position in the run, success/fail/pending counts, current group, and next-post countdown.
+The Dashboard shows:
+- **Posted today**, **Pending approval**, the **Success rate** for the last 7 days and your lifetime posts
+- The **run monitor** for the current or last run
+- The **live log** with the last events
+- A **Get started** list that ticks itself as you load groups, save a campaign, send a test post and export a backup. It disappears when it is done
 
-```
-📸 Screenshot: Live counter strip showing "3 of 15 — ✓ 3  ✗ 0 | Posted in: Group Name | Next in 47s"
-```
+### Activity
 
-### Progress Bar
-
-Visual completion with percentage label. Hides when inactive.
-
-### Event Log
-
-Chronological entries for every action:
-- Group being posted to
-- Success/failure status
-- Post URLs (clickable)
-- Wait time countdowns
-- Errors and warnings
+**Activity → Log** lists every group posted to in this session. Use the chips (**All**, **Posted**, **Pending**, **Failed**, **Skipped**, **Breaks**) to filter. Each row has the time, the status, the group, the variation, a short detail and a **View post** link. **Export CSV** saves the log as a file; **Clear** empties it.
 
 ```
-📸 Screenshot: Detailed event log with multiple entries
+📸 Screenshot: Activity log with the status chips
 ```
-
-### Clear Logs
-
-Click **"Clear Logs"** to reset the event log.
 
 ---
 
@@ -508,20 +478,21 @@ Save frequently-used group selections for quick access.
 
 ### Save a Group List
 
-1. Select your desired groups
-2. Enter a name for the list (e.g., "Marketing Groups", "Local Buy/Sell")
-3. Click **Save**
+1. In a campaign's **Audience** step, select your groups
+2. Press **Save as list** and give it a name (for example "Marketing Groups" or "Local Buy/Sell")
 
-### Load a Group List
+You can also save a list from the **Groups** page, using **Add to list** in the group details.
 
-Select a saved list from the dropdown — the dropdown shows the number of groups in each list. The corresponding groups will be auto-checked.
+### Use a Group List
 
-### Delete a Group List
+Open **Groups → Saved lists**. Each list shows its name, how many groups it has and when it was updated. **Use in campaign** opens a campaign with that list ready in the Audience step.
 
-Click the delete button next to any saved list to remove it.
+### Rename, Export or Delete
+
+Each list has **Rename**, **Export** and **Delete**. Import a list from a file with **Import list**.
 
 ```
-📸 Screenshot: Saved group lists dropdown with group count labels
+📸 Screenshot: Saved lists tab
 ```
 
 ---
@@ -537,12 +508,12 @@ FAP automatically detects whether you're logged in as a personal profile or a Fa
 3. FAP detects your Page identity and posts on behalf of the Page
 
 ```
-📸 Screenshot: Profile section showing Page name and avatar
+📸 Screenshot: Top bar chip showing the Page name and avatar
 ```
 
 ### User vs Page Indicators
 
-The dashboard shows your current identity (name and profile picture) so you always know which account is posting.
+The top bar shows the name and picture of the account FAP is posting as, so you always know which one is posting.
 
 ---
 
@@ -552,23 +523,21 @@ A Safety Break automatically pauses your campaign after a set number of posts, t
 
 ### Turn It On
 
-In the Content tab's delay settings area, switch on **Safety Break** and choose:
+In **Timing and safety**, open the **Safety break** card and switch it on. Choose:
 
 | Setting | Presets | Default |
 |---|---|---|
-| Break after every… | 10 / 25 / 50 / 100 posts, or a custom number | 25 posts |
-| Break length | 2 / 5 / 10 / 15 minutes, or custom minutes | 5 minutes |
+| Take a break after every… | 10 / 15 / 25 / 40 posts, or a custom number | 25 posts |
+| Each break lasts | 2 / 5 / 10 / 15 minutes, or custom minutes | 5 minutes |
+
+A line and a strip under the settings show how many breaks the run will have and where they fall (one mark per post).
 
 ### While a Break Runs
 
-- The live counter strip shows **☕ Safety break — resuming in …** with a countdown
+- The run capsule shows the safety break and when it resumes
 - The break **replaces** the normal wait before the next post (you don't wait twice)
-- The event log notes when the break starts and when it ends
+- The log notes when the break starts and when it ends
 - When the break finishes, posting resumes automatically from the next group
-
-```
-📸 Screenshot: Safety Break settings and the live counter strip during a break
-```
 
 > **Tip:** For campaigns of 100+ groups, a Safety Break (for example every 25 posts for 5 minutes) is an easy way to make the run look more natural.
 
@@ -589,46 +558,87 @@ FAP reads the reason behind each failed post and responds accordingly instead of
 
 ### Auto-Pause After Repeated Failures
 
-If **5 posts fail in a row**, FAP pauses the campaign automatically so you can check what's wrong (your login, your delay, the content) before continuing. Click **Resume** when you're ready, or **Reset** to start over.
+If **5 posts fail in a row**, FAP pauses the campaign automatically so you can check what's wrong (your login, your delay, the content) before continuing. The **Automatic protection** card in Timing and safety shows this is always on. Press **Resume** when you're ready.
 
 ---
 
-## 20. Plans & Locked Features
+## 20. Plans and Locked Features
 
-FAP comes in four plans: **Freemium, Basic, Pro and Advance**. Core posting and the group list features (profile pictures, Visited times and sorting) are available on every plan. Some capabilities — such as the number of groups per run, image posts, and scheduling — depend on your plan.
+FAP comes in four plans: **Freemium, Basic, Pro and Advance**. Core posting and the group list features (profile pictures, Last visited and sorting) are available on every plan. Some capabilities — such as the number of groups per campaign, photo posts, and scheduling — depend on your plan.
 
-- When a feature is locked, its card tells you **which plan unlocks it**
+- When a feature is locked, its card tells you **which plan unlocks it** and has a **See plans** button
+- **Settings → License and plan** lists everything your plan includes, your license ID and the dates, and has a **Check license** button that reads your license fresh from the server (you can use it once every 30 seconds)
+- If your license has ended, FAP switches to **read-only**: you can look at your campaigns, groups and settings, and export a backup, but you cannot start or save
 - See what each plan includes on the [pricing page](https://tools.tigerzplace.com/pricing/)
-- Already purchased? [Activate your license](https://tools.tigerzplace.com/activate/?tool=fap&tier=pro) and reload FAP — your plan updates automatically
+- Already purchased? [Activate your license](https://tools.tigerzplace.com/activate/?tool=fap&tier=pro) and press **Check license** — your plan updates automatically
 - Questions about billing? See the [refund policy](https://tools.tigerzplace.com/refund/) or [contact us](https://tools.tigerzplace.com/contact/)
 
 ---
 
-## 21. Updating FAP
+## 21. Backup and Transfer
+
+Your campaigns, group lists and preferences live in this browser. A backup file lets you keep a copy, or move them to another computer or browser. Backup and transfer is free on every plan.
+
+### Export
+
+1. Open **Settings → Backup and transfer** and press **Export a backup**
+2. Tick what you want: campaigns, group lists, preferences
+3. Save the file. It is named like `fap-backup-2026-11-01.fap.json`
+
+To export just one item, use **Export** on a campaign row (or in the editor), or on a saved list in **Groups → Saved lists**.
+
+A backup file never contains your Facebook login, your license or any password. Photos are saved as file names only, unless you tick **Include photos** and the original files are still on this computer.
+
+### Import
+
+1. On the other computer or browser, install FAP and open **Settings → Backup and transfer**
+2. Press **Import**, then choose the file or drop it on the box
+3. FAP shows a preview of every item and what will happen to it:
+
+| Label | Meaning |
+|---|---|
+| **New** | Nothing like it here yet; it will be added |
+| **Already exists** | You have one with the same name. Choose **Keep both** (the new one is called "name (imported)"), **Replace mine** or **Skip** |
+| **Over your plan** | It has more variations than your plan allows. It is imported in full and opens with the extra ones switched off, with a notice |
+| **Check groups** | Some groups in a list are not in your current joined groups. They are kept and marked |
+
+When you choose **Replace mine**, FAP first keeps a copy of what you had, so nothing is lost by accident.
+
+Campaigns need a plan that includes saving campaigns. Group lists and preferences can be imported on every plan.
+
+> **Tip:** Export a backup now and then, and before you reinstall Chrome or change computers. The Dashboard's **Get started** list reminds you.
+
+```
+📸 Screenshot: Settings → Backup and transfer, and the import preview
+```
+
+---
+
+## 22. Updating FAP
 
 1. Download the latest version from [tools.tigerzplace.com/facebook-auto-poster](https://tools.tigerzplace.com/facebook-auto-poster/)
 2. **Replace all files** in your existing FAP folder with the new ones — don't mix old and new files
 3. Go to `chrome://extensions` and click **Reload** on FAP
 
-Keep using the **same folder** — your license stays linked to it.
+Keep using the **same folder** — your license stays linked to it. Your campaigns, group lists and settings are kept. **Settings → Updates and help** shows your version and the latest one.
 
 ---
 
-## 22. Safety Tips & Best Practices
+## 23. Safety Tips and Best Practices
 
 ### Do's ✅
 
-- **Trust the smart delay recommendation** — it's calculated from your group count against a tiered risk curve
+- **Trust the suggested delay** — it is calculated from your group count against a tiered risk curve
 - **Use range delays** over fixed delays for more natural timing
-- **Start small** — test with 5–10 groups before scaling up
-- **Watch the live counter strip** — consecutive failures are an early warning sign (FAP auto-pauses after 5 in a row)
+- **Start small** — send a test post, then run 5–10 groups before scaling up
+- **Watch the run capsule and the live log** — consecutive failures are an early warning sign (FAP auto-pauses after 5 in a row)
 - **Use a Safety Break** on long runs — see [Safety Break](#18-safety-break)
-- **Use Multiple Posts** to rotate content and reduce detection risk
-- **Save campaigns** — reuse proven setups instead of rebuilding each time
+- **Use variations** to rotate content and reduce detection risk
+- **Save campaigns and export a backup** — reuse proven setups instead of rebuilding each time
 
 ### Don'ts ❌
 
-- **Don't ignore the delay warning modal** — click "Apply Safe Delay" unless you have a specific reason
+- **Don't ignore the delay warning** — click "Apply Safe Delay" unless you have a specific reason
 - **Don't post identical content** to hundreds of groups back to back
 - **Don't run FAP 24/7** — take breaks between campaigns
 - **Don't share your license** — it's tied to your FAP installation
@@ -642,7 +652,7 @@ Keep using the **same folder** — your license stays linked to it.
 
 ---
 
-## 23. Troubleshooting
+## 24. Troubleshooting
 
 ### FAP won't load / shows blank page
 
@@ -660,37 +670,47 @@ Keep using the **same folder** — your license stays linked to it.
 
 - Facebook may have updated their page structure — check if you can access `facebook.com/groups` normally
 - Try logging out and back into Facebook
-- Reload the extension from `chrome://extensions`
+- Press **Reload from Facebook** on the Groups page, or reload the extension from `chrome://extensions`
 
 ### Posts failing
 
-- Check the event log for specific error messages
+- Check **Activity → Log** for specific error messages
 - Your `session` token may have expired — relaunch FAP to refresh tokens
-- Facebook may be rate-limiting you — increase wait times
+- Facebook may be rate-limiting you — increase the delay
 - Some groups may have posting restrictions or require admin approval — those show up as **pending** or are skipped automatically
 - If 5 posts fail in a row FAP pauses on its own — check the log, fix the cause, then Resume
 
-### Delay warning modal keeps appearing
+### The delay warning keeps appearing
 
 - This means your selected delay is too short for your group count
 - Click **"Apply Safe Delay"** to let FAP set the recommended tier automatically
 
-### Post-run summary shows 0 successful posts
+### Run finished with 0 posted
 
-- Check the event log for errors — `session` expiry and rate-limiting are the most common causes
+- Check **Activity → Log** for errors — `session` expiry and rate-limiting are the most common causes
 - Relaunch FAP and try with a smaller group selection first
 
 ### Extension shows wrong version
 
 - Go to `chrome://extensions` and click the refresh icon on FAP
-- If you updated by copying files, make sure you replaced **all** files in the same folder (see [Updating FAP](#21-updating-fap))
+- If you updated by copying files, make sure you replaced **all** files in the same folder (see [Updating FAP](#22-updating-fap))
 
 ### A feature shows as locked
 
-- The card tells you which plan unlocks it — see [Plans & Locked Features](#20-plans--locked-features)
-- Just bought or upgraded? [Activate your license](https://tools.tigerzplace.com/activate/?tool=fap&tier=pro), then reload FAP
+- The card tells you which plan unlocks it — see [Plans and Locked Features](#20-plans-and-locked-features)
+- Just bought or upgraded? [Activate your license](https://tools.tigerzplace.com/activate/?tool=fap&tier=pro), press **Check license** in Settings, then reload FAP if needed
 
-### "Check your connection" card instead of the dashboard
+### "Start posting" is greyed out
+
+- A red banner under the top bar says why: license ended, or an update is required
+- Fix that (renew, or download the update) and press **Check license**
+
+### My campaigns are not where I expect
+
+- Campaigns and group lists are saved separately for each Facebook account in this browser. Make sure you are logged in as the same account
+- To move them to another computer, use [Backup and Transfer](#21-backup-and-transfer)
+
+### "Check your connection" card instead of the Dashboard
 
 - FAP couldn't reach the license service — check your internet connection (and any VPN/firewall) and reload FAP; your plan isn't affected
 

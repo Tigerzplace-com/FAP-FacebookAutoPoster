@@ -4,6 +4,132 @@
 All notable user-facing changes to Facebook Auto Poster (FAP) are documented in this file.
  
  
+# What's New in v2.3
+
+FAP has a new look. Everything is easier to find, the campaign steps are laid out in
+order, and there is a dark theme. All your saved campaigns, group lists and settings
+carry over as they are.
+
+---
+
+## A New Layout
+
+FAP now has a sidebar with six pages: **Dashboard**, **Campaigns**, **Groups**,
+**Activity**, **Insights** and **Settings**. The top bar is on every page and shows the
+run, your license and the Facebook account you are posting as. Your plan, and how many
+groups and variations it allows, sits at the bottom of the sidebar.
+
+## Light and Dark Themes
+
+Choose **System**, **Light** or **Dark** in Settings. Every page works in both.
+
+## Campaigns in Four Steps
+
+Open **Campaigns** to see everything you have saved, with Run, Open, Duplicate, Export
+and Delete on each row. A campaign is built in four steps: **Write**, **Audience**,
+**Timing and safety**, and **Review and launch**. A preview of the post, as it will look
+in a group, stays on the right while you work.
+
+## Post Variations as Cards
+
+Each variation is now a card with its own preview. Add or remove them with a click and
+see how many your plan allows.
+
+## Review Before You Launch
+
+The last step checks your post, groups, delay, safety break, photos and license in one
+list, shows when every post will go out, and lets you send a **test post** to one group
+first.
+
+## A Run Control That Follows You
+
+The top bar shows the run on every page: how far along it is, when the next post goes
+out, and Pause, Resume and Stop. Stop asks you to confirm and tells you how many groups
+are still waiting.
+
+## A New Dashboard
+
+See your posts for today, posts waiting for approval, your success rate for the last
+seven days and your lifetime total. The run monitor and the live log show the run as it
+happens. A short **Get started** list guides new users.
+
+## Activity Log
+
+Filter by Posted, Pending, Failed, Skipped or Breaks, open any post with **View post**,
+and save the whole log as a CSV file.
+
+## Groups Page
+
+Browse all your groups with their pictures, member counts and last visited time. Click
+a group to see its details, open it on Facebook, refresh it, or add it to a saved list.
+Saved lists have their own tab.
+
+## Backup and Transfer
+
+Export your campaigns, group lists and preferences to a file, and import them on
+another computer or browser. Before anything is imported you see what is new, what
+already exists, and what is over your plan. Your Facebook login and your license are
+never part of a backup. Backups are free on every plan.
+
+## Clearer License Messages
+
+FAP now tells you in plain words if your license is about to end, has ended or needs an
+update, and what you can still do. If your license has ended you can still look at your
+campaigns and export a backup.
+
+## A New Logo
+
+FAP has a new logo, in the toolbar, on the extension page and as the default profile
+picture. The Tigerzplace logo follows your theme in Settings.
+
+## Anonymous Usage Stats (Optional)
+
+To see which features people use and fix problems sooner, FAP can send anonymous counts,
+such as the number of runs and which screens are opened. It never sends your posts,
+groups or Facebook account. Turn it off any time in **Settings > Preferences > Privacy**.
+
+---
+
+## What's Improved
+
+**Settings in one place** — License and plan, Backup and transfer, Preferences,
+Notifications, and Updates and help. **Check license** reads your license fresh when
+you have just bought or upgraded.
+
+**Preferences** — Choose your default delay and safety break for new campaigns, ask
+before Stop, and get a warning before you close the tab during a run.
+
+**Easier to read** — Larger small text, clearer focus outlines for keyboard users, and
+tables that scroll inside their card on small screens.
+
+**Updates and help** — Video tutorials opens the YouTube playlist and What's new opens
+the release notes on GitHub.
+
+## What's Fixed
+
+**Latest version stays visible** — When your license is read from the saved copy, the
+latest version is still shown.
+
+**No false update prompts** — Download and What's new are hidden when the version FAP
+finds is older than the one you have installed.
+
+**Plan details on the sidebar card** — Some separators and dashes showed as odd
+characters. They now show correctly.
+
+**Loading on some systems** — FAP now loads on systems that treat capital and small
+letters in file names as different.
+
+---
+
+## Upgrade Notes
+
+No migration needed. Replace all files in your existing FAP folder with the new version
+(don't mix old and new files), then click Reload on `chrome://extensions`. All saved
+campaigns, group lists and settings are fully preserved.
+
+---
+
+
 # What's New in v2.2
  
 This release brings Group Intelligence — richer group data, smarter skip logic, and a
